@@ -1,0 +1,39 @@
+/* Style the links inside the navigation bar */
+//This is nav bar for ipad
+.topnav a {
+	@include topnav;
+}
+
+.topnav {
+    margin-left: 27px;
+    border-left: solid 1px black;
+    margin-top: 73px; 
+}
+
+.topnav a:hover {
+     color: $secondary-fontcolor;   
+}
+
+.billTopnav a {
+	@include billTopnav;
+}
+
+.billTopnav {
+ 	float: right; 
+    margin-right: 10px;
+}
+//This is nav bar for mobile
+.topnav2 a {
+	@include topnav;
+}
+
+.topnav2 {
+    margin-left: 27px;
+    border-left: solid 1px black;
+    margin-top: 73px; 
+}
+
+.topnav2 a:hover {
+     color: $secondary-fontcolor;     
+}
+

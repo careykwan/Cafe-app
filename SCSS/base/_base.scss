@@ -1,0 +1,201 @@
+body {
+	margin: 0px;
+}
+
+ul {
+	margin: 0px;
+}
+
+h1 {
+ 	margin: 0px;
+ }
+
+a {
+	text-decoration: none;
+}
+
+.heading {
+	@include heading;
+}
+
+.paragraph {
+	@include paragraph;
+}
+
+.subHeading {
+	@include subHeading;
+}
+
+.list1 {
+	@include list;
+}
+
+.list2 {
+	@include list;
+}
+.list3 {
+	@include list;
+	line-height: 20px;
+}
+
+.list4 {
+	@include list;
+	line-height: 40px;
+}
+
+#bookHeading {
+	width: 257px;
+	height: 42px;
+	padding-top: 10px;
+	padding-bottom: 1px;
+	margin-left: 79px;	
+	margin-top: none;
+}
+
+#confirmationHeading {
+	height: 75px;
+	width: 250px;
+	margin-left: 85px;
+	padding-top: 10px;
+	margin-bottom: 16px;
+	margin-top: 45px;
+}
+
+.whitebox {
+	width: 364px;
+	height: 473px;
+	background-color: white;
+	margin: auto;
+	margin-top: 8px;
+	margin-bottom: 29px;
+
+}
+
+#whitebox1 {
+	height: 350px;
+	margin-bottom: 100px;
+	
+}
+
+#whitebox2 {
+	height: 370px;
+	margin-bottom: px;
+	
+}
+#whitebox3{
+	height: 400px;
+
+}
+
+#tableBox {
+	height: 370px;
+}
+
+//this is for drinks menu
+.subtract {
+	margin-left: 35px;
+}
+
+.addon {
+	margin-left: 10px;
+}
+
+.list2 {
+	margin-left: 35px;
+
+}
+
+.list1 {
+	padding-left: 25px;
+}
+
+//this is food menu
+
+.subtract1 {
+	margin-left: 30px;
+	margin-top: 4px;
+}
+
+.add1 {
+	margin-left: 1px;
+	margin-top: 4px;
+}
+
+.list4 {
+	margin-left: 15px;
+	padding-left: 1px;
+	margin-top: 6px;
+}
+
+.list3 {
+	padding-left: 20px;
+	width: 180px;
+	margin-top: 15px;
+	
+}
+.item5 {
+	padding-bottom: 5px;
+}
+
+.item6 {
+	padding-bottom: 0px;
+}
+//these items are for the bill page
+
+#billText {
+	min-height: 400px;
+	max-width: 310px;
+	margin: 0 auto;
+}
+
+#billHeading {
+	@include heading2;
+}
+
+.line {
+	color: white;
+	border-top: dashed 1px white;
+	margin-top: 40px;
+}
+
+#cartBox {
+	height: 180px;
+
+}
+
+#completeHeading {
+	@include heading2;
+	width: 170px;
+	margin-left: 70px;
+}
+
+.ptag1 {
+	color: $third-fontcolor;
+	font-family: $font;
+	font-size: 14px;
+	text-align: center;
+	font-weight: normal;
+	margin-top: 15px;
+}
+
+.line2 {
+	color: white;
+	border-top: dashed 1px white;
+	margin-top: 0px;
+}
+
+#ptop {
+	margin-top: 70px;
+}
+
+
+.footer {
+	font-size: 12px;
+	text-align: center;
+	background-color: $background-color;
+	margin: 0 auto;
+}
+
+
+
+

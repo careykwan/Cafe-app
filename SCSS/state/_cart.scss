@@ -1,0 +1,132 @@
+p {
+	font-family: $font;
+	color: $font-color;
+	font-weight: 100;
+	line-height: 1;
+}
+#counter{
+	font-size: 16px;
+	color: $primary-color;
+	float: right;
+}
+
+.add {
+	background-color: white;
+	color: $primary-color;
+	border: none;
+}
+
+.remove {
+	background-color: white;
+	color: $primary-color;
+}
+
+.empty {
+	color: white;
+}
+.product_title {
+	margin: 0px;
+}
+
+// this is for the bill basket page
+
+#cartTable, td, th{
+	    border: none;
+	    color: white;
+	}
+#cartTable{
+	    border-collapse: collapse;
+	    width: 100%;
+	    display: none;
+	    background: none;
+	}
+
+td {
+	color: white;
+}
+
+td img {
+	display: none;
+}
+
+tr:first-child td {
+	color: white;
+	display: none;
+}
+#cart {
+	margin-top: 15px;
+}
+
+//this is the shop cart
+.product1 {
+	float: left;
+	width: 150px;
+	height: 190px;
+	text-align: center;
+	border: dashed 1px red;
+	margin: 8px;
+	font-size: 14px;
+
+}
+.product2 {
+	float: left;
+	width: 150px;
+	height: 190px;
+	text-align: center;
+	border: dashed 1px red;
+	margin: 8px;
+	font-size: 14px;
+	
+}
+.product3 {
+	float: left;
+	width: 150px;
+	height: 190px;
+	text-align: center;
+	border: dashed 1px red;
+	margin: 8px;
+	font-size: 14px;
+
+}
+.product4 {
+	float: left;
+	width: 150px;
+	height: 190px;
+	text-align: center;
+	border: dashed 1px red;
+	margin: 8px;
+	font-size: 14px;
+}
+.product5 {
+	float: left;
+	width: 150px;
+	height: 190px;
+	text-align: center;
+	border: dashed 1px red;
+	margin: 8px;
+	font-size: 14px;
+
+}
+.product6 {
+	float: left;
+	width: 150px;
+	height: 190px;
+	text-align: center;
+	border: dashed 1px red;
+	margin: 8px;
+	font-size: 14px;
+}
+.product_image {
+	width: 100px;
+}
+
+.add	{
+	width: 30px;
+	float: left;
+	margin-left: 40px;
+}
+.remove{
+		width: 30px;
+		float: left;
+		margin: none 0 auto;
+}

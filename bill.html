@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title>Coffee Supreme</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="CSS/style.css"> <!--this is the link to the cc-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+	<body>
+		<div class="container">
+		
+			<a href="index.html"><img id="logo2" src="img/logo2.png" alt="Coffee Supreme"></a>
+
+				<div class="billTopnav"> <!-- This is the nav bar -->
+					<a href="drinks.html">Drinks</a>
+					<a href="food.html">Food</a>
+					<a href="shop.html">Shop</a>	
+				</div>
+					
+					<div class="flag">
+						<div id="billText">
+							<h2 id="billHeading">Bill</h2>
+
+								<div class="line"></div>
+
+									<!-- This is the start of cart -->
+									<!-- <div id="cartBox"></div> -->
+										
+									<div id="cart">
+											<table id="cartTable">
+												<!-- <thead> -->
+													<!-- <tr>
+														<th></th>
+														<th>Product Name</th>
+														<th>Quantity</th>
+														<th>Price</th>
+														<th>Subtotal</th>
+														<th></th>
+													</tr> -->
+												<!-- </thead> -->
+												<tbody id="CartContainer">
+													<tr id="template" class="product">
+														<td><img class="product_image" src=".//"></td>
+														<td class="product_title"></td>
+														<td class="product_quantity"></td>
+														<!-- <td>$<span class='product_price'></span></td> -->
+														<td>$<span class='sub_price'></span></td>
+														<td><!-- <button class='add'>+</button> --><button class='remove'>x</button></td>
+													</tr>
+												</tbody>
+											</table>
+										</div>
+
+										<div class="line"></div>
+
+											<div class="eat">
+												<input type="checkbox"/> Eat In</input>
+												<input type="checkbox"/> To Go</input>
+											</div>
+													
+												<button id="popUpButton4" class="billButton">Place Order<br><i>Whakahau</i></button>
+
+											<div id="popUp3">
+												<div id="content">
+											
+													<h3>Are you sure you want to proceed to place order?</h3>
+													<span class="popButton" id="close3">Cancel</span>
+													<a href="complete.html"><span class="popButton" id="proceed">Proceed</span></a>
+									
+												</div>
+											</div>	
+									</div>
+		</div>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="js/jquery-3.2.1.js"></script>	
+		<script src="js/popup.js"></script>
+		<script src="js/cartFunction.min.js"></script>
+	</body>
+</html>

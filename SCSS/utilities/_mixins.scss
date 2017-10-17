@@ -1,0 +1,102 @@
+//mixins
+@import "utilities/variables";
+
+@mixin heading {
+	text-align: center;
+	color: $font-color;
+	font-size: $heading-size;
+	font-style: normal;
+	text-transform: uppercase;
+	border: solid 1px;
+	border-color: $primary-color;
+	font-family: $font;
+	font-style: normal;
+	font-weight: normal;
+	}
+
+@mixin heading2 {
+	text-align: center;
+	font-style: normal;
+	text-transform: uppercase;
+	font-family: $font;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	color: $secondary-headingcolor;
+	border: solid 1px white;
+	width: 130px;
+	height: 35px;
+	padding-top: 7px;
+	margin: 0 auto;
+
+}
+
+@mixin topnav {
+	float: center;
+    display: inline;
+    color: $font-color;
+    text-align: center;
+    padding: 1px 24px;
+    font-size: 24px;
+    font-family: $font;
+    margin-left: 0px;
+    text-transform: uppercase;
+    text-decortion: none;
+    border-right: solid 1px black; 
+ }
+
+@mixin paragraph {
+	color: $secondary-fontcolor;
+	font-family: $font;
+	font-size: 16px;
+	text-align: left;
+	margin-left: 17px;
+	padding-top: 25px;
+	line-height: 1.4;
+}
+
+@mixin subHeading {
+	font-family: $font;
+	font-size: 29px;
+	text-align: center;
+	color: $font-color;
+	text-transform: uppercase;
+	font-weight: normal;
+	text-decoration: underline $primary-color;
+	padding-top: 25px;
+}
+
+@mixin list {
+	font-family: $font;
+	list-style-type: none;
+	font-size: $font-size;
+	line-height: 40px;
+}
+
+@mixin billTopnav {
+	display: inline-block;
+	font-size: 16px;    
+    text-align: center;
+    padding: 1px 14px;
+    margin-top: 10px;
+    color: $font-color;
+    text-align: center;
+    font-family: $font;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-left: solid 1px black;
+}
+
+@mixin cartAdd {
+	margin-top: 4px;
+	background-color: white;
+	color: $primary-color;
+	font-weight: 900;
+}
+
+@mixin cartSub {
+	margin-top: 4px;
+	background-color: white;
+	color: $primary-color;
+	font-weight: 900;
+}

@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Coffee Supreme</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="CSS/style.css"> <!--this is the link to the cc-->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+	<body>
+		<div class="container">
+			<a href="index.html"><img id="logo2" src="img/logo2.png" alt="Coffee Supreme"></a>
+			<a href="bill.html"><img class="cart" src="img/cart.png" alt="shopping cart"></a>
+				<strong><p id="counter">(<span class="cartCount"></span>)</p></strong>
+			<!-- This is pop up button	 -->
+				<img src="img/bell.png" alt="bell" id="bellButton">
+
+				
+
+					<div id="popUp1">
+						<div id="content1">
+							<span id="close">X</span>
+							<!-- span class="popButton" id="popUp1">x</span> -->
+							<h3 id="ptag3">You have called for Service!</h3>
+							<h3 id="ptag4">Someone will be with you shortly.</h3>
+						
+						</div>
+					</div>	
+						
+					<div class="topnav2" id="mobileTopnav"> <!-- This is for mobile display -->
+						<a href="drinks.html">Drinks</a>
+						<a href="food.html">Food</a>
+						<a href="shop.html">Shop</a>
+					</div>
+
+					<div class="topnav" id="mobileTopnav"> <!-- This is the ipad nav -->
+						<a href="drinks.html">Drinks</a>
+						<a href="food.html">Food</a>
+						<a href="shop.html">Shop</a>
+						<a class="home" href="menu.html"><img id="homeIcon" src="img/home.png" alt="H"></a>
+					</div>
+						<div id="whitebox2" class="whitebox">
+							<!-- This is the flag Tab -->
+							<div class="flagTab">
+						<div id="billText">
+							<h2 id="billHeading">Bill</h2>
+
+								<div class="line"></div>
+
+									<!-- This is the start of cart -->
+									<!-- <div id="cartBox"></div> -->
+										
+<div id="cart">
+		<table id="cartTable">
+			<!-- <thead> -->
+				<!-- <tr>
+					<th></th>
+					<th>Product Name</th>
+					<th>Quantity</th>
+					<th>Price</th>
+					<th>Subtotal</th>
+					<th></th>
+				</tr> -->
+			<!-- </thead> -->
+			<tbody id="CartContainer">
+				<tr id="template" class="product">
+					<td><img class="product_image" src=".//"></td>
+					<td class="product_title"></td>
+					<td class="product_quantity"></td>
+					<!-- <td>$<span class='product_price'></span></td> -->
+					<td>$<span class='sub_price'></span></td>
+					<td><!-- <button class='add'>+</button> --><button class='remove'>x</button></td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+
+
+
+
+
+
+
+
+
+
+        
+													<div class="line"></div>
+
+														<div class="eat">
+															<input type="radio"/> Eat In</input>
+															<input type="radio"/> To Go</input>
+														</div>
+													<!-- <a href="complete.html"><button class="billButton">Order</button></a> -->
+													<!-- This is pop up button	 -->
+												<button id="popUpButton" class="billButton">Place Order<br><i>Whakahau</i></button>
+
+												<div id="popUp">
+												<div id="content">
+											
+													<h3>Are you sure you want to proceed to place order?</h3>
+													<span class="popButton" id="closeTab">Cancel</span>
+													<a href="complete.html"><span class="popButton" id="proceed">Proceed</span></a>
+									<!-- </div> -->
+								</div>
+						</div>	
+					</div>
+
+				</div>
+
+							<h2 class="subHeading">Food</h2>
+					
+
+					<!-- This is the start of the cart/menu -->
+					
+					
+
+							<div class="row">
+
+								<div class="item1 product">
+									<div class="initial"><p class="product_title">Toast<br> with Avocado</p>
+									<p class="product_description"></p></div>
+									<div class="initial2"><p>$<span class="product_price">7.50</span></p></div>
+										<div class="quantityButton">
+											<button class="add">+</button>
+											<button class="remove">-</button>
+										</div>
+								</div>
+
+								<div class="item2 product">
+									<div class="initial"><p class="product_title">Toast<br> with Saukraut</p>
+									<p class="product_description"></p></div>
+									<div class="initial2"><p>$<span class="product_price">7.50</span></p></div>
+										<div class="quantityButton">
+											<button class="add">+</button>
+											<button class="remove">-</button>
+										</div>
+								</div>
+
+								<div class="item3 product">
+									<div class="initial"><p class="product_title">Toast<br> with Honey</p>
+									<p class="product_description"></p></div>
+									<div class="initial2"><p>$<span class="product_price">7.50</span></p></div>
+										<div class="quantityButton">
+											<button class="add">+</button>
+											<button class="remove">-</button>
+										</div>
+								</div>
+
+								<div class="item4 product">
+									<div class="initial"><p class="product_title">Donut of the Day</p>
+									<p class="product_description"></p></div>
+									<div class="initial2"><p>$<span class="product_price">4.50</span></p></div>
+										<div class="quantityButton">
+											<button class="add">+</button>
+											<button class="remove">-</button>
+										</div>
+								</div>
+								
+
+								<div class="item5 product">
+									<div class="initial"><p class="product_title">Crossaint</p>
+									<p class="product_description"></p></div>
+									<div class="initial2"><p>$<span class="product_price">4.50</span></p></div>
+										<div class="quantityButton">
+											<button class="add">+</button>
+											<button class="remove">-</button>
+										</div>
+								</div>
+							</div>
+
+						</div>	
+				
+		
+
+			<!-- This is pop up button	 -->
+			<button id="popUpButtonPhone" class="mainButton">Place Order<br><i>Whakahau</i></button>
+
+					<div id="popUp2">
+						<div id="content">
+						
+							<h3>Are you sure you want to proceed to place order?</h3>
+							<span class="popButton" id="close2">No</span>
+							<a href="bill.html"><span class="popButton" id="proceed">Yes</span></a>
+						</div>
+					</div>
+			<!-- This is the shopping cart -->
+					<div id="shoppingCart">
+						<button id="clear">Clear Cart</button>
+						<p>What is in my cart</p>
+						<strong><p>Cart Count (<span class="cartCount"></span>)</p></strong>
+						<div id="cart">
+							<table id="cartTable">
+								<thead>
+									<tr>
+										<th>Product Name</th>
+										<th>Description</th>
+										<th>Quantity</th>
+										<th>Price</th>
+										<th>Subtotal</th>
+										<th></th>
+									</tr>
+								</thead>
+								<tbody id="CartContainer">
+									<tr id="template" class="product">
+										<td class="product_title"></td>
+										<td class="product_description"></td>
+										<td class="product_quantity"></td>
+										<td>$<span class='product_price'></span></td>
+										<td>$<span class='sub_price'></span></td>
+										<td><button class='add'>Add</button><button class='remove'>Remove</button></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+						<strong><p>Total Order Price ($<span class="priceCount"></span>)</p></strong>
+						<hr>
+						<a href="bill.html">Go to Cart</a>
+					</div>
+		</div>
+	</div>
+		</div>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="js/jquery-3.2.1.js"></script>	
+		<script src="js/popup.js"></script>
+		<script src="js/cartFunction.min.js"></script>
+	</body>
+</html>

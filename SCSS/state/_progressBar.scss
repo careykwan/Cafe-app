@@ -1,0 +1,28 @@
+#myProgress {
+    width: 100%;
+    background-color: white;
+    border: 1px solid white;
+}
+#myBar {
+    width: 1%;
+    height: 30px;
+    background-color: #D22226;
+}
+
+#progressClick {
+	width: 180px;
+	height: 35px;
+	margin-left: 65px;
+	color: $primary-color;
+	font-size: 15px;
+	text-align: center;
+	display: block;
+	background-color: white;
+	border-radius: 5px;
+	
+}
+
+#progressBox {
+	margin-top: 50px;
+
+}

@@ -1,0 +1,267 @@
+//this is for iphone plus
+@media only screen and (max-width: 414px){
+	#homeIcon {
+		display: none;
+		}
+	#bellButton {
+		display: none;
+	}
+	.topnav {
+		display: none;
+	}
+	#entertablet {
+		display: none;
+	}
+	.flagDrink {
+		display: none;
+	}
+	#shoppingCart {
+		display: none;
+	}
+	.row {
+	margin-top: 35px;
+	}
+	.flagTab{
+		display: none;
+	}
+	#whitebox1 {
+		margin-bottom: 50px;
+	}
+
+}
+@media only screen and (orientation: landscape){
+	  
+}
+// //this is for tablet (landscape)
+@media only screen and (min-width:415px) and (max-width: 1024px){
+	#logo1 {
+	height: 40%;
+	padding-top: 100px; 
+	}
+
+	#bookpage {
+		display: none;
+	}
+
+	#enterMobile {
+		display: none;
+	}
+
+	#entertablet {
+		display: block;
+    	margin: auto;
+    	margin-top: 150px;
+	}
+	// this is the drinks page//
+	
+	.topnav {
+		float: right;
+		margin-right: 12px;
+		margin-top: 155px;
+		border-left: none;
+	}
+	.cart {
+		display: none;
+	}
+	#whitebox2 {
+		margin-top: 120px;
+		margin-bottom: none;
+		width: 882px;
+		height: 515px;
+	}
+	#whitebox3 {
+		margin-top: 120px;
+		margin-bottom: none;
+		width: 882px;
+		height: 515px;
+	}
+	.container2 {
+		width: 550px;
+		height: 450px;
+	}
+	.mainButton {
+	display: none;
+	}
+	.subHeading {
+		padding-top: 38px;
+	}
+	#bellButton {
+		float: right;
+		padding-top: 20px;
+		padding-right: 20px;
+	
+	}
+	.topnav2 {
+		display: none;
+	}
+
+	.topnav {
+		border-right: solid 1px black;
+		padding-bottom: 5px;
+	}
+
+	#shoppingCart {
+		display: none;
+	}
+	#counter {
+		display: none;
+	}
+	#billText {
+	padding-top: 15px;
+	min-height: 400px;
+	margin: 0 auto;
+	}
+	.line {
+		width: 85%;
+		margin-left: 20px;
+	}
+	.billButton {
+		margin-left: 40px;
+	}
+	.empty {
+		margin-left: 20px;
+	}
+	td {
+		margin-left: 20px;
+	}
+	.container2 {
+	overflow-y: scroll;
+	width: 570px;
+	margin-top: 0px;
+	padding-top: 0px;
+	}
+	.row {
+	width: 570px;
+	margin-top: 50px;
+	margin-left: 50px;
+	}
+	.row1 {
+	margin-top: 0px;
+	margin-left: 10px;
+	}
+	#bill1 {
+	margin-left: 55px;
+	margin-top: 80px;
+	}
+
+}
+// This is for desktop
+@media only screen and (min-width:1024px){
+	#logo1 {
+	height: 40%;
+	padding-top: 100px; 
+	}
+	.cart {
+		display: none;
+	}
+	#bookpage {
+		display: none;
+	}
+	#enterMobile {
+		display: none;
+	}
+	#entertablet {
+		display: block;
+    	margin: auto;
+    	margin-top: 150px;
+	}
+	// this is the drinks page//
+
+	.row{
+		margin-top: 100px;
+		margin-left: 100px;
+	}
+	
+	.topnav {
+		float: right;
+		padding-right: 0px;
+		margin-top: 155px;
+		border-left: none;
+	}
+	.cart {
+		display: none;
+	}
+	#whitebox2 {
+		margin-top: 120px;
+		margin-bottom: none;
+		width: 885px;
+		height: 515px;
+	}
+	#whitebox3 {
+		margin-top: 120px;
+		margin-bottom: none;
+		width: 885px;
+		height: 515px;
+	}
+
+	.container2 {
+		width: 550px;
+		height: 450px;
+	}
+
+	.mainButton {
+	display: none;
+	}
+	.subHeading {
+		padding-top: 38px;
+	}
+	#bellButton {
+		float: right;
+		padding-top: 20px;
+		padding-right: 20px;
+	
+	}
+	.topnav2 {
+		display: none;
+	}
+
+	.topnav {
+		border-right: solid 1px black;
+		height: 30px;
+		padding-bottom: 5px;
+	}
+
+	#shoppingCart {
+		display: none;
+	}
+	#counter {
+		display: none;
+	}
+	#billText {
+	padding-top: 15px;
+	min-height: 400px;
+	margin: 0 auto;
+	}
+	.line {
+		width: 85%;
+		margin-left: 20px;
+	}
+	.empty {
+		margin-left: 20px;
+	}
+	td {
+		margin-left: 20px;
+	}
+	.container2 {
+		overflow-y: scroll;
+		width: 570px;
+		margin-top: 0px;
+		padding-top: 0px;
+	}
+	.row {
+		width: 570px;
+		margin-top: 50px;
+		margin-left: 50px;
+	}
+	.row1 {
+		margin-top: 0px;
+		margin-left: 10px;
+	}
+	#bill1 {
+		margin-left: 55px;
+		margin-top: 80px;
+	}
+	
+}
+
+

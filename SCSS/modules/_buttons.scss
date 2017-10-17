@@ -1,0 +1,92 @@
+@import "utilities/variables";
+@import "utilities/mixins";
+
+/*Button styles*/
+
+button {
+	border: none;
+	background-color: $button-color;
+	font-size: 15px;
+	text-align: center;
+	display: block;
+	font-family: $font;
+ 	color: $third-fontcolor;
+	}
+
+.enter {
+	margin-top: 126px;
+	margin-left: 96px;
+	margin-bottom: 17px;
+	width: 240px;
+	height: 65px;
+	line-height: 20px;
+}
+
+#bookpage {
+	margin-top: none;
+	margin-left: 96px;
+	width: 240px;
+	height: 57px;
+}
+
+.mainButton {
+	width: 204px;
+	height: 52px;
+	margin-left: 105px;
+	margin-bottom: 39px;
+	text-transform: uppercase;
+
+}
+
+#bookTable {
+	margin-top: 160px;
+	margin-left: 85px;
+}
+
+//these items are for the drinks and food page
+
+.item4 {
+	@include cartAdd;
+	line-height: 2;
+}
+
+.item3 {
+	@include cartSub;
+	line-height: 2;
+}
+
+.item8 {
+	@include cartAdd;
+	line-height: 2.1;
+	
+}
+
+.item7 {
+	@include cartSub;
+	line-height: 2.1;
+}
+
+//these items are for the bill page
+
+.billButton {
+	margin-left: 50px;
+	margin-top: 40px;
+	width: 204px;
+	height: 52px;
+	background-color: white;
+	font-size: 15px;
+	text-align: center;
+	display: block;
+	font-family: $font;
+ 	color: $secondary-fontcolor;
+ 	font-weight: 700;
+ 	text-transform: uppercase;
+}
+
+#bill1 {
+	margin-top: 110px;
+}
+	
+
+ 
+
